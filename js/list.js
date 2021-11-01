@@ -53,7 +53,7 @@ function DeleteBooking(id) {
         method: 'DELETE',
     })
         .then(() => {
-            alert("Record id " + id + "has been deleted!")
+            alert("Record id " + id + " deleted!")
             GetBooking()
         });
 }
